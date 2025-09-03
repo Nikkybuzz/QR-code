@@ -34,3 +34,47 @@ body {
     text-align: center;
     margin-bottom: 50px;
   }
+
+ /* mobile less than 576px */
+@media (max-width: 576px) {
+
+#hero {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#hero img {
+    width: 450px;
+    height: 450px;
+}
+
+ #hero h1 {   
+    font-size: 35px;
+    max-width: 420px;
+ }
+
+  #hero p {
+    max-width: 400px ;
+    font-size: 25px;
+  }
+  }
+  
+ 
+    /* mobile less than 768px */
+@media (max-width: 768px) {
+
+#hero {
+    margin-left: 155px;
+    margin-right: 155px;
+}
+  }
+  
+  /* mobile less than 992px */
+@media (max-width: 992px) {
+
+#hero {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+  }
+  
