@@ -1,0 +1,7 @@
+/* min-width: 576px */
+@media (min-width: 576px) {
+    #hero {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}
